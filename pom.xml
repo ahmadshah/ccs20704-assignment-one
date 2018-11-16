@@ -4,7 +4,7 @@
     <groupId>msu.oop.assignment</groupId>
     <artifactId>assignment-one</artifactId>
     <version>0.1</version>
-    <name>CS20704 - Assignment One</name>
+    <name>CCS20704 - Assignment One</name>
     <description>
         Assignment one for subject Object Oriented Programming.
     </description>
@@ -25,40 +25,9 @@
             <version>${junit.jupiter.version}</version>
             <scope>test</scope>
         </dependency>
-        <!--
-            If your IDE throws an exception when you try to run the example
-            test, it's not bundled with the correct JUnit 5 version. You can
-            solve this problem by uncommenting the following dependencies.
-        -->
-        <!--
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit.jupiter.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.vintage</groupId>
-            <artifactId>junit-vintage-engine</artifactId>
-            <version>${junit.vintage.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-launcher</artifactId>
-            <version>${junit.platform.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-runner</artifactId>
-            <version>${junit.platform.version}</version>
-            <scope>test</scope>
-        </dependency>
-        -->
     </dependencies>
     <build>
-        <finalName>cs20704-assignment-one</finalName>
+        <finalName>ccs20704-assignment-one</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
