@@ -8,9 +8,15 @@ package msu.oop.assignment;
  * @version 1.0
  */
 public final class Room
-{
+{   
+    /**
+     * Room length.
+     */
     int length;
 
+    /**
+     * Room width.
+     */
     int width;
 
     /**
