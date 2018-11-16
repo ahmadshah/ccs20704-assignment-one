@@ -8,5 +8,5 @@ build:
 
 length=0
 width=0
-run:
+run-question-one:
 	mvn exec:java -Dexec.mainClass="msu.oop.assignment.Room" -Dexec.args="$(length) $(width)"
