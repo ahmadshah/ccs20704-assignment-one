@@ -25,12 +25,26 @@ class RoomTest {
     }
 
     @Test
+    void setNewLength() {
+        this.room.setLength(10);
+
+        assertEquals(10, this.room.getLength());
+    }
+
+    @Test
+    void setNewWitdh() {
+        this.room.setWidth(10);
+
+        assertEquals(10, this.room.getWidth());
+    }
+
+    @Test
     void calculateFloorSpace() {
         assertEquals(375, this.room.calculateFloorSpace());
     }
 
     @Test
     void floorSpaceOutput() {
-        assertEquals("The floor space is 375 square feet", this.room.toString());
+        assertEquals("The floor space is 375 square feet.", this.room.toString());
     }
 }
