@@ -13,3 +13,6 @@ run-question-one:
 
 run-question-two:
 	mvn exec:java -Dexec.mainClass="msu.oop.assignment.Number"
+
+run-question-four:
+	mvn exec:java -Dexec.mainClass="msu.oop.assignment.rectangle.Test"
