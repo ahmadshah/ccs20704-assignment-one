@@ -1,4 +1,4 @@
-.PHONY: test build run
+.PHONY: test build run-question-one run-question-two run-question-four run-question-five
 
 test:
 	mvn test
@@ -16,3 +16,6 @@ run-question-two:
 
 run-question-four:
 	mvn exec:java -Dexec.mainClass="msu.oop.assignment.rectangle.Test"
+
+run-question-five:
+	mvn exec:java -Dexec.mainClass="msu.oop.assignment.jusco.Testing"
